@@ -1,3 +1,6 @@
+loadstring(game:HttpGet("https://raw.githubusercontent.com/COPICALITY/Assets/refs/heads/main/ACBypass.lua"))()
+task.wait(5)
+
 LPH_NO_VIRTUALIZE = function(...) return ... end
 LPH_JIT = function(...) return ... end
 LPH_JIT_MAX = function(...) return ... end
@@ -872,7 +875,7 @@ local function initializeGUI()
     local guiElements = {}
 
     getgenv().SecureMode = true
-    local rayfieldLib = loadstring(game:HttpGet("https://cdn.guest.gay/libs/rayfield.lua"))()
+    local rayfieldLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/COPICALITY/Assets/refs/heads/main/rayfield.lua"))()
 
     guiElements["Window"] = rayfieldLib:CreateWindow({
         Name = "Cube-07",
